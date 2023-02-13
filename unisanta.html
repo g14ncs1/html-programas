@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+    background: é recomendado que se declare que está se utilizando a versão atual do html.
+    DOCTYPE: determina a versão sendo utilizada.
+-->
+    
+    <html lang"pt-br">
+        <!--
+            background: por padrão browsers identificam a lingua utilizada pelo programa, mas é padrão declarar a lingua utilizada com um atributo dado ao documento
+            lang: atributo que define o idioma daa página (no caso, português brasil)
+        -->
+        <!--
+                head: providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.-->
+        <head>
+            
+            <!--
+                metadata: este elemento representa metadatas que não pode ser representado por outros elementos meta-relacionados de HTML.
+                charset: método de codificação a ser utilizado.
+            -->
+            <meta charset="UTF-8">
+              
+            <!--
+                título: define o título do documento, mostrado na barra de título de um navegador ou na aba da página.
+            -->
+            <title>Engenharia de Computação | Unisanta</title>
+            <!--
+                style: estilo de folha interna
+            -->
+            <style>
+                /*
+                    font-family: propriedade em CSS que especifica a fonte utilizada.
+                    font-size: tamanho da fonte utilizada em pixels.
+                    <length>: valor de distanciamento.
+                    color: define a cor do texto, usa-se hexadecimal (#RRGGBB), rgb(RR,GG,BB), cor padrão.
+                    margin: dá área de margem ao elemento, pode ser anotado das seguintes maneiras: margin (para ser em todas as direções, margin-"direção específica", ou margin: L R T B.
+                    serif = fonte com hastes "serifas", sans "sem".
+                    padding: dá área de enchimento ao elemento.
+                    box model: ("modelo de caixa").
+                    :hover: condição para ativar as características ao elemento, no caso, passar o mouse por cima dele.
+                    border-width: propriedade da grossura do elemento borda.
+                    border-style: propriedade estilo do elemento borda.
+                    border-color: propriedade cor do elemento borda
+                    float: alinhamento do elemento, pode ser à direita (float-left) ou à esquerda (float-right).
+                */
+
+                body {
+                    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 17px; 
+                    }
+
+                h1 {
+                    background-color: #4682b4;
+                    font-size: 25px;
+                    color:#ff0000;
+                    padding: 15px;
+                }
+
+                h2 {
+                    font-size: 21px;
+                    color: #ff0000;
+                }
+                
+                a {
+                    color: #000;
+                }
+
+                a:hover {
+                    color:#4682b4;
+                }
+                img {float:right;
+                    
+                    margin: 0 0 15px 15px;
+                    border-width: 5px;
+                    border-style:dashed;
+                    border-color:#4682b4;
+                    padding: 10px;
+                }
+                img:hover {
+                    border-width: 5px;
+                    border-style:dotted;
+                    border-color:#4682b4;
+                }
+            </style> 
+
+        </head>
+
+        <body>
+            <!--
+                body: define o corpo de um documento html
+                address: fornece informações de contato para seu ancestral <article> ou <body> mais próximo; no segundo caso, ele se aplica ao documento inteiro
+                p: este elemento representa parágrafos
+                h: os elementos <h1>–<h6> representam seis níveis de título de seção. <h1> é o nível de seção mais alto e <h6> é o mais baixo
+                br: este elemento quebra linhas
+                
+                formatação
+                    formas convencionais
+                        b: bold (representa um intervalo de texto em negrito, sem transmitir qualquer importância ou relevância)
+                        i: italic (representa um intervalo de texto em itálico, sem transmitir qualquer importância ou relevância)
+                    formas modernas
+                        strong: deixa o texto delimitado em negrito e dá ao texto uma forte importância
+                        em: deixa o texto delimitado em itálico e marca o texto que tem ênfase
+            -->
+            <h1>Engenharia de Computação | UNISANTA</h1>
+
+                <a href="estagios.html"><img src="img/engenharia-de-computacao-1.avif" alt="Professores e alunos de Engenharia de Computação no laborátorio M-515" width="500" height="375"></a>
+                <p>O curso de graduação em Engenharia de Computação da Unisanta forma profissionais aptos a trabalharem com diferentes tecnologias, atuando em projeto de computadores e periféricos, automação industrial e residencial, desenvolvimento e engenharia de software, aplicações de sistemas de telecomunicações, robótica, administração de redes de computadores, integração entre hardware e software, gerenciamento de processos industriais e engenharia de aplicação, entre outras – oferecendo, desde os primeiros semestres, o através de disciplinas voltadas para a profissionalização do estudante.</p>
+            
+                <p>O engenheiro de computação possui conhecimentos e habilidades específicas no projeto e desenvolvimento e aplicação de sistemas de computação, desde o estudo e especificação dos materiais, gestão de TI, software e hardware, integrando-os nos equipamentos e serviços para os fins desejados.</p>
+            
+                <p>O curso promove ainda pesquisas científicas na área de Inteligência Artificial e Robótica, sendo referência nacional através do Grupo de Lógica Paraconsistente Aplicada.</p>
+            
+                <p>Trabalhos são incentivados em diversas áreas através dos vários núcleos de estudos do curso, como os grupos de Lógica Paraconsistente Aplicada em Automação e Robótica, Lógica Paraconsistente Aplicada em Sistemas Inteligentes, Pesquisa em Métodos Tecnológicos Aplicados à Bioengenharia e Pesquisa em Engenharia Aplicada, estimulando a participação de alunos em competições e congressos nacionais (como o Congresso Nacional de Iniciação Científica) e Neorama, evento de fomento ao empreendedorismo e inovação, possibilitando o desenvolvimento de diversas habilidades e aliando teoria à prática.</p>
+            
+            <h2>Sucesso na área</h2>
+
+                <img src="img/engenharia-de-computacao-2.avif" alt="Professores e alunos de Engenharia de Computação no laborátorio M-512 durante uma aula " width="500" height="375"> 
+
+                <p>São muitos os casos de sucesso de alunos e ex-alunos de Engenharia de Computação da Universidade Santa Cecília que estagiam ou trabalham em multinacionais, dentro e fora do país, e empresas brasileiras de destaque em diversos setores. <em>Microsoft</em>, <em>IBM</em>, <em>Scania</em>, <em>Accenture</em>, <em>British Telecom</em>, <em>Capgemini</em>, <em>Cisco Systems</em>, <em>Walmart</em>, <em>Philips</em> e <em>Bolsa de Valores de São Paulo</em> são apenas algumas das companhias que possuem como colaboradores profissionais formados pelo curso.</p>
+            
+            <h2>Campo de atuação</h2>
+            
+                <p>O Engenheiro de Computação pode atuar em áreas como <strong><em>Telecomunicações</strong></em>, <strong><em>Bioengenharia</strong></em>, <strong><em>Automação Elétrica (Robótica)</strong></em>, <strong><em>Informática</strong></em>, <strong><em>Engenharia de Software</strong></em>, <strong><em>Arquitetura</strong></em> e Redes de Computadores</strong></em> e afins.</p>    
+            
+            <h2>Vestibular</h2>
+                <!--
+                    <a></a>: hyperlink hypertext archor (direciona para outro url.
+                    href: referência (link).
+                    target: define comportamento da abertura do link, no caso de _blank, direciona você a outra aba.
+                -->
+                <p>Deseja ser informado da abertura de vagas para o curso de Engenharia de Computação <ahref="https://www.unisanta.br/vestibular" target="_blank">Acesse este link</a>.</p>
+            
+            <address>
+                <strong>Faculdade de Engenharia de Computação</strong><br>
+                Universidade Santa Cecília (Unisanta)<br>
+                Rua Oswaldo Cruz, 277<br>
+                11045-907 - Boqueirão - Santos/SP<br>
+                Central do Vestibular: (13) 3202-7101 | 3202-7139 | 3202-7140<br>
+                Telefone: (13) 3202-7100<br>
+                Site: <a href="https://engenharia.unisanta.br/computacao" target="_blank">https://engenharia.unisanta.br/computacao</a>
+            </address>
+        </body>
+    </html>
